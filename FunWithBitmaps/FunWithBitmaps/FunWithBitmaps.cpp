@@ -4,6 +4,8 @@
 #include "stdafx.h"
 #include "FunWithBitmaps.h"
 
+// This is the main Windows event loop file
+
 #define MAX_LOADSTRING 100
 
 // Global Variables:
