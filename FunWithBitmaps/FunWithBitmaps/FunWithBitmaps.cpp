@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "FunWithBitmaps.h"
 
-// This is the main Windows event loop file
+// This is the main Windows event loop file and Windows entry point for this app.
 
 #define MAX_LOADSTRING 100
 
