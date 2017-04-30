@@ -146,12 +146,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FunWithBitmaps.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="TriangleRender.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunWithBitmaps.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="FunWithBitmaps.ico" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="TriangleRender.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

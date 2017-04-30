@@ -21,15 +21,31 @@
     <ClInclude Include="FunWithBitmaps.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunWithBitmaps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="FunWithBitmaps.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
