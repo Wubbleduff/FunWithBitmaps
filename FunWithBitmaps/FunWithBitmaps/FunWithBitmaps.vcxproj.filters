@@ -30,7 +30,7 @@
     <ClInclude Include="GameData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TriangleRender.h">
+    <ClInclude Include="ShapeRender.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,7 +44,7 @@
     <ClCompile Include="Ship.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TriangleRender.cpp">
+    <ClCompile Include="ShapeRender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

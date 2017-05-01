@@ -1,15 +1,20 @@
 #pragma once
 #include "GameData.h"
-#include "TriangleRender.h"
+#include "ShapeRender.h"
 #include <math.h>
 
 class Ship {
 public:
-    Ship();	
-	void draw(DrawBufferData *drawBufferData);
-	void move(float x, float y);
+    Ship(DrawBufferData *inDrawBufferData);	
+	void updateAndDraw();
+	Point getCenter();
+	void moveToCenter();
+	void moveForward(float thrust);
 	void rotate(float angle);
 
     GamePolygon *body;
 private:
+	DrawBufferData *drawBufferData;
+
+	Vector velocity;
 };

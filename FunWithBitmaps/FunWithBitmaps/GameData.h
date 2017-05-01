@@ -37,3 +37,8 @@ typedef struct {
 	Point *vertices;
 	Color color;
 } GamePolygon;
+
+typedef struct {
+	float x;
+	float y;
+} Vector;

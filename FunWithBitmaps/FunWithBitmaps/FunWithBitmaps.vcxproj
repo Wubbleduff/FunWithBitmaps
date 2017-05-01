@@ -149,13 +149,13 @@
     <ClInclude Include="GameData.h" />
     <ClInclude Include="Render.h" />
     <ClInclude Include="Ship.h" />
-    <ClInclude Include="TriangleRender.h" />
+    <ClInclude Include="ShapeRender.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunWithBitmaps.cpp" />
     <ClCompile Include="Render.cpp" />
     <ClCompile Include="Ship.cpp" />
-    <ClCompile Include="TriangleRender.cpp" />
+    <ClCompile Include="ShapeRender.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-#include "TriangleRender.h"
+#include "ShapeRender.h"
 
 void drawTriangle(DrawBufferData *drawBufferData, Point p1, Point p2, Point p3, Color color) {
 	Point topPoint = p1;
